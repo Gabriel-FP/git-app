@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 function App() {
   const [usuario, setUsuario] = useState(null);
   const [loading, setLoading] = useState(true);
-  const username = 'ronnison';
+  const username = 'Gabriel-FP';
 
   useEffect( () => {
     const buscaDados = async () => {
